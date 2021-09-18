@@ -134,9 +134,9 @@ cat >"${HOME_DIR}/dbconfig.xml" <<EOL
   <database-type>postgres72</database-type>
   <schema-name>public</schema-name>
   <jdbc-datasource>
-    <url>jdbc:postgresql://postgresservertest.postgres.database.azure.com:5432/jiradb</url>
+    <url>jdbc:postgresql://postgresservertest0202.postgres.database.azure.com:5432/jiradb</url>
     <driver-class>org.postgresql.Driver</driver-class>
-    <username>ibrahimdb@postgresservertest</username>
+    <username>ibrahimdb@postgresservertest0202</username>
     <password>Ibrah!mTest123</password>
     <pool-min-size>30</pool-min-size>
     <pool-max-size>30</pool-max-size>
