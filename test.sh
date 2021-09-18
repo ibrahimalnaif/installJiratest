@@ -1,17 +1,5 @@
 #!/bin/bash
-###################################################################
 
-
-echo "Executing [$0]..."
-PROGNAME=$(basename $0)
-
-set -e
-
-# Execute updates
-
-yum update -y
-
-# Base install
 
 yum install -y wget git openssl
 
